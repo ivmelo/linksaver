@@ -1,4 +1,6 @@
-## LinkSaver [![SensioLabsInsight](https://insight.sensiolabs.com/projects/c793f5f3-6a8f-4735-bf09-45fced6e134a/big.png)](https://insight.sensiolabs.com/projects/c793f5f3-6a8f-4735-bf09-45fced6e134a)
+## LinkSaver
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/c793f5f3-6a8f-4735-bf09-45fced6e134a/big.png)](https://insight.sensiolabs.com/projects/c793f5f3-6a8f-4735-bf09-45fced6e134a)
+[![StyleCI](https://styleci.io/repos/47772848/shield)](https://styleci.io/repos/47772848)
 
 LinkSaver is a simple web application designed to store your favorite links. It uses laravel as a framework and it's light and fast. In most of the cases, you don't even have to give a title for your url, as it is done automatically for you.
 
