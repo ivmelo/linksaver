@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => 'no-reply@vieiralabs.com', 'name' => 'No Reply Vieira Labs'],
+	'from' => ['address' => null, 'name' => null],
 
 	/*
 	|--------------------------------------------------------------------------
