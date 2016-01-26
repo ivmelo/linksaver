@@ -14,13 +14,12 @@
 Route::get('/', 'LinkController@index');
 
 Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
+    'auth'     => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
 ]);
 
 // For editing account information.
 Route::get('user/{id}/edit', ['as' => 'user.edit', 'uses' => 'UserController@edit']);
 Route::patch('user/{id}', ['as' => 'user.update', 'uses' => 'UserController@update']);
-
 
 Route::resource('link', 'LinkController');
