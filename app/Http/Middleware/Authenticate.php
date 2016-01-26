@@ -28,7 +28,7 @@ class Authenticate {
 	 *
 	 * @param  \Illuminate\Http\Request  $request
 	 * @param  \Closure  $next
-	 * @return mixed
+	 * @return \Illuminate\Http\Request | \Illuminate\Http\Response | Illuminate\Http\RedirectResponse
 	 */
 	public function handle($request, Closure $next)
 	{

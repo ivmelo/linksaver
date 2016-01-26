@@ -19,7 +19,7 @@
 	      <div class="modal-footer">
 	      	{!! Form::open(array('action' => array('LinkController@destroy', $link->id), 'method' => 'delete')) !!}
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-	        
+
 	        <button type="submit" class="btn btn-danger">Delete</button>
 	        {!! Form::close() !!}
 	      </div>
@@ -49,13 +49,13 @@
 			<br />
 		</div>
 
-		
+
 
 		<object class="page-preview" type="text/html" data="{{ $link->url }}" style="width:100%;">
 
 		<p>backup content</p>
 		</object>
-	
+
 @stop
 
 @section('style-specifics')
