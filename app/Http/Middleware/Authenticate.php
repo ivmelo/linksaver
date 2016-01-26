@@ -28,9 +28,9 @@ class Authenticate {
 	 *
 	 * @param  \Illuminate\Http\Request  $request
 	 * @param  \Closure  $next
-	 * @return \Illuminate\Http\Request | \Illuminate\Http\Response | Illuminate\Http\RedirectResponse
+	 * @return mixed
 	 */
-	public function handle($request, Closure $next)
+	public function handle(Request $request, Closure $next)
 	{
 		if ($this->auth->guest())
 		{
