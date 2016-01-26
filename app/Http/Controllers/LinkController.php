@@ -1,16 +1,9 @@
 <?php namespace App\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-
-use Request;
-
-//use Request;
-
-use \App\Link;
-
 use Auth;
-
+use Request;
+use \App\Link;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 
 
@@ -167,7 +160,7 @@ class LinkController extends Controller {
 		}
 
 		$link->url = Request::get('url');
-		// Gets page title from 
+		// Gets page title from
 		$link->title = Request::get('title');
 
 		// Save the porra toda

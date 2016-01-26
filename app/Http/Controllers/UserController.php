@@ -1,14 +1,9 @@
 <?php namespace App\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-
-use Request;
-
-use App\User;
-
 use Auth;
-
+use Request;
+use App\User;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 
 
@@ -109,7 +104,6 @@ class UserController extends Controller {
 			$user->save();
 			// it's all right Johnny, redirect and inform the user
 			return redirect('link')->with('flash_message', 'Your account information was updated!');
-			echo Request::get('email');
 		} else {
 			// wrong password, inform the user
 			return redirect()->back()

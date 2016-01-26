@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-	
+
 	<div class="container">
 
 		<!-- to display flash messages if present -->
